@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of ekumanov/flarum-ext-spam-alerts.** Not for installation: use [Packagist](https://packagist.org/packages/ekumanov/flarum-ext-spam-alerts) or the [upstream repository](https://github.com/ekumanov/flarum-ext-spam-alerts).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ekumanov-flarum-ext-spam-alerts/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
+**1** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ekumanov-flarum-ext-spam-alerts/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-10-15 | `^2.0` | [Browse](https://github.com/flarchive/ekumanov-flarum-ext-spam-alerts/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/ekumanov-flarum-ext-spam-alerts.json](https://github.com/flarchive/archive-index/blob/main/packages/ekumanov-flarum-ext-spam-alerts.json)
 
