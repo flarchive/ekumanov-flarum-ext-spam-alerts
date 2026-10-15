@@ -1,0 +1,44 @@
+{
+    "name": "ekumanov/flarum-ext-spam-alerts",
+    "description": "Emails chosen moderators whenever FoF Anti-Spam automatically flags or holds a post or discussion.",
+    "keywords": [
+        "flarum",
+        "extension",
+        "moderation",
+        "spam",
+        "email",
+        "notifications"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0",
+        "flarum/flags": "^2.0",
+        "fof/anti-spam": "^2.0@beta",
+        "php": "^8.3"
+    },
+    "authors": [
+        {
+            "name": "ekumanov",
+            "email": "ekumanov@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ekumanov\\SpamAlerts\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Spam Alerts",
+            "category": "moderation",
+            "icon": {
+                "name": "fas fa-envelope-open-text",
+                "backgroundColor": "#B5473A",
+                "color": "#fff"
+            }
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}

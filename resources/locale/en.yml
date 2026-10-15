@@ -1,0 +1,33 @@
+ekumanov-spam-alerts:
+  admin:
+    settings:
+      groups_label: Email these groups
+      groups_help: >
+        Members of the checked groups are emailed whenever FoF Anti-Spam automatically
+        flags or holds a post. Only those who can view flags and see the post receive
+        anything, so a group without moderation permissions is skipped.
+      groups_loading: Loading groups…
+      usernames_label: …and these users
+      usernames_help: >
+        Usernames, separated by commas or spaces. The same permission check applies.
+
+  email:
+    subject_held: "[{forum}] Held for approval: {title}"
+    subject_flagged: "[{forum}] Flagged as possible spam: {title}"
+    heading_held: Held for approval
+    heading_flagged: Flagged as possible spam
+    intro_discussion: FoF Anti-Spam flagged a new discussion.
+    intro_reply: FoF Anti-Spam flagged a new reply.
+    intro_edit: FoF Anti-Spam flagged an edited post.
+    status_held: Hidden until a moderator approves it
+    status_flagged: Visible, flagged for review
+    label_discussion: Discussion
+    label_author: Author
+    label_status: Status
+    label_score: Spam score
+    label_reasons: Why it was flagged
+    label_excerpt: What they wrote
+    open_post: Open the post
+    review_flags: Review all flags
+    deleted_user: "[deleted]"
+    author_stats: "{count, plural, one {# post} other {# posts}}, joined {joined}"
